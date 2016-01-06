@@ -11,6 +11,10 @@ import UIKit
 
 class FamilyViewController : UIViewController
 {
+    @IBAction func changeToSchool(sender: UIButton)
+    {
+        performSegueWithIdentifier("toSchool", sender: sender)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
