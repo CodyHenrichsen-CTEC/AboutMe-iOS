@@ -33,7 +33,7 @@
         <!--Running-->
         <scene sceneID="8Cp-Yz-U2T">
             <objects>
-                <viewController title="Running" id="fk0-Nw-4HZ" sceneMemberID="viewController">
+                <viewController title="Running" id="fk0-Nw-4HZ" customClass="RunningViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M4U-Kq-wkR"/>
                         <viewControllerLayoutGuide type="bottom" id="LbL-r5-Wl6"/>
@@ -58,7 +58,7 @@
         <!--School-->
         <scene sceneID="iZK-ct-fNF">
             <objects>
-                <viewController title="School" id="7zO-cR-40f" sceneMemberID="viewController">
+                <viewController title="School" id="7zO-cR-40f" customClass="SchoolViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QZW-ez-WTE"/>
                         <viewControllerLayoutGuide type="bottom" id="x2v-BW-TJb"/>
@@ -83,7 +83,7 @@
         <!--Family-->
         <scene sceneID="xgo-JA-p4a">
             <objects>
-                <viewController title="Family" id="3BM-3e-JYq" sceneMemberID="viewController">
+                <viewController title="Family" id="3BM-3e-JYq" customClass="FamilyViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6yM-C2-cV0"/>
                         <viewControllerLayoutGuide type="bottom" id="pcS-N9-dx1"/>
