@@ -25,10 +25,13 @@
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="3BM-3e-JYq" kind="presentation" identifier="toFamily" id="BIc-RK-MRv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18" y="207"/>
+            <point key="canvasLocation" x="44" y="127"/>
         </scene>
         <!--Running-->
         <scene sceneID="8Cp-Yz-U2T">
@@ -50,10 +53,13 @@
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="oY8-gB-bu1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dIK-o1-52d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="1008"/>
+            <point key="canvasLocation" x="-6" y="1290"/>
         </scene>
         <!--School-->
         <scene sceneID="iZK-ct-fNF">
@@ -75,10 +81,13 @@
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="fk0-Nw-4HZ" kind="presentation" identifier="toRunning" id="caw-pM-yPq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wA-oU-EdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="822" y="998"/>
+            <point key="canvasLocation" x="822" y="1118"/>
         </scene>
         <!--Family-->
         <scene sceneID="xgo-JA-p4a">
@@ -100,10 +109,13 @@
                         <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="7zO-cR-40f" kind="presentation" identifier="toSchool" id="pEV-AZ-56g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="McI-s0-fP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="822" y="216"/>
+            <point key="canvasLocation" x="758" y="134"/>
         </scene>
     </scenes>
 </document>
