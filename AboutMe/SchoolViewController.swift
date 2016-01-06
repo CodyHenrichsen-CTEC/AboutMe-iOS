@@ -11,6 +11,10 @@ import UIKit
 
 class SchoolViewController : UIViewController
 {
+    @IBAction func changeToRunning(sender: UIButton)
+    {
+        performSegueWithIdentifier("toRunning", sender: sender)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

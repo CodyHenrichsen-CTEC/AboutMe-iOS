@@ -12,6 +12,10 @@ import UIKit
 class RunningViewController : UIViewController
 {
     
+    @IBAction func changeToHome(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHome", sender: sender)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
