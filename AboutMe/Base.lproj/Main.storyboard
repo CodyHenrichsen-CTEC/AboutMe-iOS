@@ -55,6 +55,12 @@
                                     <action selector="changeToHome:" destination="fk0-Nw-4HZ" eventType="touchUpInside" id="OHE-xw-ARD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7k-t3-Z1v">
+                                <rect key="frame" x="188" y="193" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -88,6 +94,9 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sample swift method" translatesAutoresizingMaskIntoConstraints="NO" id="a2t-0k-vbv">
                                 <rect key="frame" x="77" y="111" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rubric sample" translatesAutoresizingMaskIntoConstraints="NO" id="yFm-Im-S3h">
+                                <rect key="frame" x="87" y="479" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -138,6 +147,7 @@
     </scenes>
     <resources>
         <image name="amaze" width="236" height="343"/>
+        <image name="rubric sample" width="1110" height="488"/>
         <image name="sample swift method" width="2096" height="1024"/>
     </resources>
 </document>
